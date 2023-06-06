@@ -1,0 +1,19 @@
+{
+  "name": "a-hung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start index.js --name a-hung-project",
+    "stop": "pm2 delete a-hung-project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.8.1",
+    "node-cron": "^3.0.2",
+    "pm2": "^5.3.0"
+  }
+}
